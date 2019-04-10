@@ -1,0 +1,6 @@
+<div class="container">
+  This is left {{leftVariable}}
+  <div class="row" *ngFor="let res of resource; let i = index">
+    <button class="btn btn-primary col-10 m-2" (click)="fetchData(i)">{{res}}</button>
+  </div>
+</div>

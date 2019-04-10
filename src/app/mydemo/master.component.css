@@ -1,0 +1,8 @@
+app-left-child{
+    background-color: azure;
+    min-height: 200px;
+}
+app-right-child{
+    background-color: cornsilk;
+    min-height: 200px;
+}

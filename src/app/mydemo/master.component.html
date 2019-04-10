@@ -1,0 +1,8 @@
+<div class="container">
+  Master component is divided to left and right
+  <div class="row">
+    <app-left-child [leftVariable]="masterLeft" (leftEvent)="leftListener($event)" class="col-3"></app-left-child>
+    <app-right-child [someObj]="response"  (leftEvent)="rightListener($event)"  class="col-9"></app-right-child>
+  </div>
+
+</div>
